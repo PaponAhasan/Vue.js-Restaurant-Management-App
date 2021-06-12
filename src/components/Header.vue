@@ -12,8 +12,7 @@ export default {
     name:'Header',
     methods:{
         logout(){
-            this.$store.dispatch('user',null);
-            localStorage.removeItem('token');
+            localStorage.removeItem('user-info');
             this.$router.push('/login');
         }
     }
