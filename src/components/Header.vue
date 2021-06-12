@@ -3,13 +3,20 @@
        <a href="#">Home</a>
        <a href="#">Add Restaurant</a>
        <a href="#">Update Restaurant</a>
-       <a href="#">Logout</a>
+       <a @click="logout">Logout</a>
    </div>
 </template>
 
 <script>
 export default {
-    name:'Header'
+    name:'Header',
+    methods:{
+        logout(){
+            this.$store.dispatch('user',null);
+            localStorage.removeItem('token');
+            this.$router.push('/login');
+        }
+    }
 }
 </script>
 

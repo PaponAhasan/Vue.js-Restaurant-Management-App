@@ -38,12 +38,12 @@ export default {
         }
       }
     },
-    // mounted(){
-    //   let user=localStorage.getItem('user-info');
-    //   if(user){
-    //     this.$router.push({name:'Home'})
-    //   }
-    // }
+    mounted(){
+      let user=localStorage.getItem('user-info');
+      if(user){
+        this.$router.push({name:'Home'})
+      }
+    }
 }
 </script>
 
