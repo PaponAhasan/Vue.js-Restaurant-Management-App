@@ -1,0 +1,21 @@
+{
+    "user": [{
+            "name": "papon",
+            "email": "ahasan@gamil.com",
+            "password": "papon652",
+            "id": 1
+        },
+        {
+            "name": "karim",
+            "email": "karim@gamil.com",
+            "password": "karim652",
+            "id": 2
+        },
+        {
+            "name": "imran",
+            "email": "imran@gamil.com",
+            "password": "imran652",
+            "id": 3
+        }
+    ]
+}
