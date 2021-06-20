@@ -1,6 +1,6 @@
 <template>
 <Header />
-<h1>Hello {{ name }}, Welcome on Home Page</h1>
+<h1>Hello User, Welcome on Update Restaurant</h1>
 <!-- <teleport to="#footer">
     <Footer/>
 </teleport> -->
@@ -10,19 +10,13 @@
 import Header from './Header.vue'
 // import Footer from './Footer.vue'
 export default {
-    name: 'Home',
-    data(){
-      return{
-        name:'',
-      }
-    },
+    name: 'Update Restaurant',
     components: {
         Header,
         // Footer
     },
     mounted(){
       let user=localStorage.getItem('user-info');
-      this.name=JSON.parse(user).name;
       if(!user){
         this.$router.push({name:'SignUp'})
       }
