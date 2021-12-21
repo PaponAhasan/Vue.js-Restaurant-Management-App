@@ -20,7 +20,8 @@ npm run build
 npm run lint
 ```
 ### Modules of project 
- #Login User
+ Login User
+ ```
  Register User 
  Routing
  Logout
