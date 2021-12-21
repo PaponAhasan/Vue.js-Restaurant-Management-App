@@ -67,6 +67,7 @@ See
 - npm run serve
 - cmd command open db folder
 - And run 'json-server --watch db.json'
+- npm install axios
 ```
 ### Login Page
 
