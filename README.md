@@ -21,41 +21,41 @@ npm run lint
 ```
 ### Modules of project 
  ```
- Login User
- Register User 
- Routing
- Logout
- API
- Restaurant List
- Add Restaurant
- Delete Restaurant
- Update Restaurant
- Sorting
+ - Login User
+ - Register User 
+ - Routing
+ - Logout
+ - API
+ - Restaurant List
+ - Add Restaurant
+ - Delete Restaurant
+ - Update Restaurant
+ - Sorting
  etc
  ```
  ### Backend
   ```
-  JSON Server for API
-  Postman for Test API
-  APIs
-    Restaurant Listing API
-    Add New Restaurant API
-    Delete Restaurant API
-    Update Restaurant API
-    User Auth
+  - JSON Server for API
+  - Postman for Test API
+  - APIs
+    - Restaurant Listing API
+    - Add New Restaurant API
+    - Delete Restaurant API
+    - Update Restaurant API
+    - User Auth
   ```
   ### Technology
   ```
-  node js and npm
-  Postman for Test API
-  vue js 3
-  Axios package for API integration
-  json server for API
+  - node js and npm
+  - Postman for Test API
+  - vue js 3
+  - Axios package for API integration
+  - json server for API
   ```
 ### Customize configuration
 See
-[Node-Js and NPM](https://nodejs.org/en/).
-[Vue-js CLI](https://cli.vuejs.org/config/).
+- [Node-Js and NPM](https://nodejs.org/en/).
+- [Vue-js CLI](https://cli.vuejs.org/config/).
 
 
 ### Login Page 
