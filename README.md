@@ -33,6 +33,25 @@ npm run lint
  Sorting
  etc
  ```
+ ### Backend
+  ```
+  JSON Server for API
+  Postman for Test API
+  APIs
+    Restaurant Listing API
+    Add New Restaurant API
+    Delete Restaurant API
+    Update Restaurant API
+    User Auth
+  ```
+  ### Technology
+  ```
+  node js and npm
+  Postman for Test API
+  vue js 3
+  Axios package for API integration
+  json server for API
+  ```
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
