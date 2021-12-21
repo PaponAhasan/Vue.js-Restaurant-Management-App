@@ -53,7 +53,11 @@ npm run lint
   json server for API
   ```
 ### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+See
+```
+[Node-Js and NPM](https://nodejs.org/en/).
+[Vue-js CLI](https://cli.vuejs.org/config/).
+```
 
 ### Login Page 
 
