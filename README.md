@@ -54,10 +54,9 @@ npm run lint
   ```
 ### Customize configuration
 See
-```
 [Node-Js and NPM](https://nodejs.org/en/).
 [Vue-js CLI](https://cli.vuejs.org/config/).
-```
+
 
 ### Login Page 
 
