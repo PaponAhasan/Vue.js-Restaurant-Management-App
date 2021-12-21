@@ -19,7 +19,18 @@ npm run build
 ```
 npm run lint
 ```
-
+### Modules of project 
+ #Login User
+ Register User 
+ Routing
+ Logout
+ API
+ Restaurant List
+ Add Restaurant
+ Delete Restaurant
+ Update Restaurant
+ Sorting
+ etc
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
