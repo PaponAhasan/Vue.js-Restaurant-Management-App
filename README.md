@@ -64,6 +64,8 @@ See
 - cd project_name
 - code .
 - npm run serve
+- cmd command open db folder
+- And run 'json-server --watch db.json'
 ```
 ### Login Page
 
