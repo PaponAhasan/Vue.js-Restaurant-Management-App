@@ -20,8 +20,8 @@ npm run build
 npm run lint
 ```
 ### Modules of project 
- Login User
  ```
+ Login User
  Register User 
  Routing
  Logout
@@ -32,6 +32,7 @@ npm run lint
  Update Restaurant
  Sorting
  etc
+ ```
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
