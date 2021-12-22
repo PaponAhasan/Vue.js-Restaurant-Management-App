@@ -68,6 +68,7 @@ See
 - cmd command open db folder
 - And run 'json-server --watch db.json'
 - npm install axios
+- npm install vue-router@next
 ```
 ### Login Page
 
