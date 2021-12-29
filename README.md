@@ -71,7 +71,7 @@ See
 - cd project_name
 - code .
 - npm run serve
-- cmd command open db folder
+- cmd command open db folder or cd db
 - And run 'json-server --watch db.json'
 - npm install axios
 - npm install vue-router@next
