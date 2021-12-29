@@ -29,6 +29,32 @@
       "password": "1",
       "name": "a",
       "id": 5
+    },
+    {
+      "name": "karim",
+      "email": "karim@gmail.com",
+      "password": "karim123",
+      "id": 6
+    }
+  ],
+  "restaurant": [
+    {
+      "name": "Burger King",
+      "contact": "1111",
+      "address": "Ramgonj",
+      "id": 1
+    },
+    {
+      "name": "Chicken King",
+      "contact": "22222",
+      "address": "Tahirpur",
+      "id": 2
+    },
+    {
+      "name": "kfc",
+      "contact": "01741536082",
+      "address": "Louisville, Kentucky, United States",
+      "id": 3
     }
   ]
 }

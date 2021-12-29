@@ -37,14 +37,17 @@ export default {
                     position: "top-right",
                     duration: 1300
                     // all of other options may go here
-                });
+                }); 
                 localStorage.setItem("user-info", JSON.stringify(result.data));
+
+                //Redirect home page
                 this.$router.push({
                     name: 'Home'
                 })
             }
         }
     },
+    //Redirect home page if user is login
     mounted() {
         let user = localStorage.getItem('user-info');
         if (user) {
@@ -59,28 +62,5 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 
 <style scoped>
-.logo {
-    width: 125px;
-    margin: 30px;
-}
 
-.register input {
-    width: 300px;
-    height: 40px;
-    padding-left: 20px;
-    display: block;
-    margin-bottom: 30px;
-    margin-right: auto;
-    margin-left: auto;
-    border: 1px solid skyblue;
-}
-
-.register button {
-    width: 320px;
-    height: 40px;
-    border: 1px solid skyblue;
-    background: skyblue;
-    color: white;
-    cursor: pointer;
-}
 </style>

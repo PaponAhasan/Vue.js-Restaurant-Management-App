@@ -2,8 +2,8 @@
 <img class="logo" src="../assets/RestaurantLogo.jpg" alt="">
 <h1>Login</h1>
 <div class="login">
-    <input type="text" v-model="email" placeholder="Enter Email">
-    <input type="password" v-model="password" placeholder="Enter Password">
+    <input type="text" name="email" v-model="email" placeholder="Enter Email">
+    <input type="password" name="password" v-model="password" placeholder="Enter Password">
     <button v-on:click="login">Login</button>
 </div>
 <p>
@@ -62,28 +62,4 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 
 <style scoped>
-.logo {
-    width: 125px;
-    margin: 30px;
-}
-
-.login input {
-    width: 300px;
-    height: 40px;
-    padding-left: 20px;
-    display: block;
-    margin-bottom: 30px;
-    margin-right: auto;
-    margin-left: auto;
-    border: 1px solid skyblue;
-}
-
-.login button {
-    width: 320px;
-    height: 40px;
-    border: 1px solid skyblue;
-    background: skyblue;
-    color: white;
-    cursor: pointer;
-}
 </style>
