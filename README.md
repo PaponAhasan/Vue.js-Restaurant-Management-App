@@ -77,6 +77,12 @@ See
 - npm install vue-router@next
 ```
 ### Login Page
-
 ![image](https://user-images.githubusercontent.com/59710234/122682438-18fb3b80-d21b-11eb-83a1-f28493c3c818.png)
+### Restaurant List
+![image](https://user-images.githubusercontent.com/59710234/147642716-89fb3cc8-c02d-490c-b6a7-966463a66f37.png)
+
+![image](https://user-images.githubusercontent.com/59710234/147642818-0ef8638a-6644-4fcb-88f0-265095df8757.png)
+![image](https://user-images.githubusercontent.com/59710234/147642838-f168fe5a-6fbb-4ad9-8211-8e118c0fc87f.png)
+
+
 
