@@ -19,6 +19,12 @@ npm run build
 ```
 npm run lint
 ```
+
+### Json-Server Run
+```
+json-server --watch db.json
+```
+
 ### Modules of project 
  ```
  - Login User
